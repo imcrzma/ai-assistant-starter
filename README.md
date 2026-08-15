@@ -1,12 +1,37 @@
 # AI Assistant — Starter
 
-A lightweight AI customer-service assistant built with n8n, WhatsApp, and OpenRouter.
+> A lightweight AI customer-service assistant for WhatsApp.
+
+Built by **Promptine**.
+
+---
 
 ## Overview
 
-AI Assistant is a simple conversational automation designed to help businesses handle customer communication through WhatsApp.
+AI Assistant is a lightweight conversational automation designed for businesses that want to handle customer communication through WhatsApp using AI.
 
-It can understand customer requests, answer questions, maintain conversation context, and guide customers toward the appropriate next step.
+It understands customer messages, maintains conversation context, and responds naturally in the customer's language.
+
+The Starter version focuses on one thing:
+
+**Reliable AI-powered customer communication without unnecessary complexity.**
+
+---
+
+## Workflow
+
+![AI Assistant Workflow](workflow.png)
+
+### Flow
+
+**WhatsApp → Message Processing → AI Agent → WhatsApp Response**
+
+The AI Agent is connected to:
+
+- OpenRouter LLM
+- Conversation Memory
+
+---
 
 ## Features
 
@@ -14,37 +39,30 @@ It can understand customer requests, answer questions, maintain conversation con
 - AI-powered customer conversations
 - Conversation memory
 - Multilingual communication
-- Natural and concise responses
+- Natural responses
 - Basic customer information collection
 - Automated WhatsApp replies
+- Lightweight architecture
 
-## Workflow
-
-WhatsApp
-↓
-Message Processing
-↓
-AI Agent
-↓
-OpenRouter LLM
-↓
-Conversation Memory
-↓
-WhatsApp Response
+---
 
 ## Tech Stack
 
-- n8n
-- WhatsApp Business API
-- OpenRouter
-- AI Agent
-- Conversation Memory
+| Technology | Purpose |
+|---|---|
+| n8n | Automation & workflow orchestration |
+| WhatsApp Business API | Customer communication |
+| OpenRouter | AI model access |
+| AI Agent | Conversation logic |
+| Conversation Memory | Context retention |
+
+---
 
 ## Starter Package
 
-**$300**
+### $300
 
-Designed for businesses that need a simple AI customer-service assistant without advanced business automation.
+Designed for businesses that need a simple AI assistant for customer communication.
 
 ### Included
 
@@ -53,6 +71,7 @@ Designed for businesses that need a simple AI customer-service assistant without
 - Conversation memory
 - Multilingual responses
 - Customer support conversations
+- Basic information collection
 
 ### Not Included
 
@@ -62,29 +81,69 @@ Designed for businesses that need a simple AI customer-service assistant without
 - Gmail
 - Appointment booking
 - Customer database
-- Advanced business workflows
+- Advanced business automation
 
-## Pro Version
+---
 
-The system can be extended with:
+## Pro Package
+
+### $350
+
+The Pro version extends the assistant with additional automation capabilities.
+
+Possible integrations include:
 
 - Voice message support
 - Customer database
 - Google Sheets
 - Google Calendar
 - Appointment booking
-- Rescheduling and cancellation
+- Rescheduling & cancellation
 - Email confirmations
 - Advanced business workflows
 
+---
+
 ## Architecture
 
-The system uses n8n as the automation layer, connecting WhatsApp with an AI agent and conversational memory.
+The system uses **n8n** as the automation layer.
 
-The AI model is accessed through OpenRouter.
+WhatsApp receives the customer message and passes it through the workflow.
 
-## Privacy
+The AI Agent processes the message using an LLM accessed through OpenRouter and maintains conversational context using memory.
+
+The generated response is then sent back to the customer through WhatsApp.
+
+---
+
+## Privacy & Security
 
 This repository contains documentation and architecture information only.
 
-Production credentials, API keys, customer data, and private workflow configurations are not included.
+Production workflow files are intentionally not included.
+
+No:
+
+- API keys
+- Access tokens
+- Customer data
+- Production credentials
+- Private workflow JSON
+
+are stored in this repository.
+
+---
+
+## About Promptine
+
+**Promptine** builds practical AI automation systems for businesses.
+
+> Not every job needs a hire. Some of it just needs a system.
+
+---
+
+## License
+
+Private commercial system.
+
+The workflow and implementation are proprietary to Promptine.
