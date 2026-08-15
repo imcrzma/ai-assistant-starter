@@ -13,7 +13,7 @@ It can understand customer requests, answer questions, maintain conversation con
 - WhatsApp integration
 - AI-powered customer conversations
 - Conversation memory
-- Multi-language communication
+- Multilingual communication
 - Natural and concise responses
 - Basic customer information collection
 - Automated WhatsApp replies
@@ -66,7 +66,7 @@ Designed for businesses that need a simple AI customer-service assistant without
 
 ## Pro Version
 
-The system can be extended with advanced automation such as:
+The system can be extended with:
 
 - Voice message support
 - Customer database
